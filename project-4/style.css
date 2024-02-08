@@ -80,7 +80,7 @@ nav > h2 {
 
 .hero__content {
   width: 36rem;
-  height: 8rem;
+  height: 18rem;
   margin: 0 auto;
   margin-top: 18rem;
   padding: 1.5rem;
@@ -186,7 +186,7 @@ nav > h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./images//nature-6.jpg);
+  background-image: url(./images/book.avif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -319,7 +319,8 @@ nav > h2 {
 
   .hero__content {
     width: 80%;
-    margin-top: 10rem; /* Adjusted for better visibility */
+    margin-top: 8rem; /* Adjusted for better visibility */
+    height: 20rem;
   }
 
   .hero__content > h1 {
