@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5% 10%;
+}
+form {
+  width: 30rem;
+  height: 35rem;
+  border: 1px solid black;
+  position: fixed;
+  top: 60px;
+  left: 500px;
+  padding: 40px 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+input {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+label {
+  font-size: 20px;
+}
+button {
+  margin-left: 30%;
+  width: 40%;
+  height: 5vh;
+}
+button:hover {
+  color: aliceblue;
+  background-color: palevioletred;
+  transition: all 0.4s linear;
+}
