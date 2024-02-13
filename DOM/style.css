@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+button {
+  color: #34fac6;
+}
+main {
+  width: 30rem;
+
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+input {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+span {
+  display: none;
+}
+h1 {
+  font-size: 5rem;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 2rem;
+}
