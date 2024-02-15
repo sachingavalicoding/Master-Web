@@ -11,7 +11,8 @@ const colors = [
 //colors.forEach((color) => console.log(color));
 
 const p = document.querySelector("p");
-const btn = document.querySelector("button");
+const btn = document.querySelector(".btn");
+const btn1 = document.querySelector(".btn1");
 const main = document.querySelector("main");
 btn.addEventListener("click", () => {
   let randomNum = getRandomNumber();
