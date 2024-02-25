@@ -1,0 +1,156 @@
+.slider-container{
+    width: 100%;
+    min-height: 400px;
+    padding: 0rem 1rem;
+}
+.slider-main{
+    width: 80%;
+    margin: 1.2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+.slider-main > .box{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.7rem;
+    margin: 0.5rem;
+}
+
+#next , #prev{
+    font-size: 30px;
+    border: 1px solid rgb(166, 0, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slider-main > .box > img{
+    width: 80%;
+}
+.box:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s linear;
+}
+
+/*  Products */
+
+.product-header{
+    width: 100%;
+    border: 2px solid red;
+    padding: 0.5rem;
+}
+.product-header > nav{
+    display: flex;
+    width: 60%;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.product-header > nav > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.product-main{
+    width: 100%;
+    height: 600px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 50%;
+    border: 2px solid rgb(255, 0, 230);
+    display: flex;
+}
+.left > .small-img {
+    width: 25%;
+    height: 600px;
+   border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.left > .small-img > img{
+   border: 1px solid black;
+   width: 100px;
+   
+}
+.left > .big-img {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid greenyellow;
+}
+.right{
+    width: 50%;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: 100%;
+}
+
+.right-title > h4{
+    font-size: 3rem;
+} 
+.right-title > h6{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.right > span{
+    margin: 0.5rem 0rem;
+}
+.right > .star{
+    border: 2px solid red;
+}
+.star > i{
+    margin-right: 0.2rem;
+}
+
+.right > .prize{
+    font-size: 1rem;
+    font-weight: 400;
+    color: red;
+}
+
+.right > .prize1{
+    font-size: 1.4rem;
+    color: black;
+}
+.color-box , .size-box{
+ margin-top: 0.7rem;
+display: flex;
+flex-direction: column;
+}
+.boxs{
+    margin: 0.8rem 0rem ;
+    display: flex;
+}
+.boxs > div{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgb(244, 0, 0);
+    margin: 0rem 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}

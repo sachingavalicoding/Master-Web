@@ -1,0 +1,35 @@
+/*  Reset Css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*  Root Elements  */
+:root{
+    --main-color:rgb(137, 100, 255);
+    --sec-color:rgb(57, 14, 248);
+    --white:white;
+    --dark:#000;
+    --third:#3A333d;
+}
+
+.btn{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+}
+
+section{
+    margin:1rem 0rem;
+    background-color: aquamarine;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}

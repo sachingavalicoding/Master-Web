@@ -1,0 +1,88 @@
+.header-title{
+    margin: 2rem 0px auto auto;
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    width: 100%;
+    margin-top: 5rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 2rem;
+}
+
+span{
+    margin: 0px 1rem;
+}
+
+.search-bar{
+    margin-left: 1rem;
+    width: 45rem;
+}
+
+.search-bar > input{
+    padding: 0.8rem 1rem;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+.login{
+    margin-left: 2rem;
+    padding: 0.7rem 0.7rem ;
+}
+
+.wraper{
+    width: 25%;
+    background-color: black;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+   
+}
+.wraper-ani{
+    animation: wraperAni 1.5s linear 1;
+    transition: all 0.3s linear;
+}
+@keyframes wraperAni{
+    0%{
+        left: -400px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+nav{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    margin: 1rem 0px;
+
+}
+
+.home-section {
+    width: 100%;
+    height: 75vh;
+    background-color: aquamarine;
+}
