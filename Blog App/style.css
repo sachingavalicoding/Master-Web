@@ -1,0 +1,60 @@
+.topNav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 10%;
+  border: 1px solid red;
+}
+
+.topNav__container > h2 {
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+.topNav__container > .input-box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar {
+  padding: 10px 25px;
+  width: 40rem;
+  border-radius: 7px;
+  background-color: var(--white-dark-color);
+}
+
+.login__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/*  ============LEFT SIDE BAR ================= */
+.left-sideNavbar__container {
+  display: flex;
+  width: 20rem;
+  padding: 0.4rem 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  background-color: white;
+}
+.right-sideNavbar__container {
+  display: flex;
+  width: 20rem;
+  padding: 0.4rem 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  position: fixed;
+  top: 4rem;
+  right: 0;
+  background-color: white;
+}
