@@ -18,6 +18,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -34,7 +41,7 @@
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
       <div class="login__container">
-        <i class="fa-solid fa-message"></i>
+        <a href="./pages/signin.html"> <i class="fa-solid fa-message"></i></a>
         <i class="fa-solid fa-bell"></i>
         <div class="avatar__container">
           <img src="./images/avatar1.jpg" alt="" />
@@ -48,12 +55,14 @@
         </div>
         <p>Home</p>
       </div>
+
       <div class="icon__box">
         <div class="icon__container">
           <i class="fa-solid fa-wand-magic-sparkles"></i>
         </div>
         <p>Explore</p>
       </div>
+
       <div class="icon__box">
         <div class="icon__container">
           <i class="fa-solid fa-heart"></i>
@@ -179,20 +188,50 @@
         </div>
       </div>
       <div class="posts__container">
-        <div class="post">
-          <div class="post__image">
-            <img src="" alt="" />
+        <div class="post__profile">
+          <div class="post__avatar">
+            <img src="./images/avatar2.jpg" alt="" />
           </div>
-          <div class="post__content"></div>
+          <div class="posts__name">
+            <h2>John Doe</h2>
+          </div>
         </div>
+        <p class="post__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
+          saepe odio reiciendis omnis.
+        </p>
         <div class="post">
           <div class="post__image">
-            <img src="" alt="" />
+            <img src="./images/me-about.jpg" alt="" />
           </div>
-          <div class="post__content"></div>
+          <div class="post__content">
+            <i class="ri-heart-3-line"></i>
+            <i class="ri-chat-voice-fill"></i>
+            <i class="ri-share-line"></i>
+            <input type="text" placeholder="Write your comment" />
+          </div>
         </div>
       </div>
     </main>
+    <footer>
+      <div class="footer__container">
+        <h3>Subscribe to our newsletter</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda,
+          ratione obcaecati. Quis ipsam, laboriosam adipisci cumque delectus.
+          Incidunt!
+        </p>
+        <input type="text" placeholder="Enter your email address" size="30" />
+        <button class="btn-dark" value="Subscribe">Subscribe</button>
+        <div class="footer__icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
     <script src="./index.js"></script>
   </body>
 </html>
