@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 40rem;
+  margin: 0 auto;
+  margin-top: 7rem;
+  border: 1px solid red;
+}
+
+body {
+}
+table {
+  text-align: center;
+}
+table > * > * > * {
+  padding: 5px 10px;
+  width: 100%;
+}
+th {
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
