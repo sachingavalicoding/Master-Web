@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  width: 40rem;
+  height: 25rem;
+  background-color: black;
+  margin: 100px auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 30px;
+  color: white;
+  background-color: rgb(78, 45, 222);
+  border: 1px solid transparent;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
